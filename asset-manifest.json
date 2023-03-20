@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/test-for-abz/static/css/main.073c9b0a.css",
+    "main.js": "/test-for-abz/static/js/main.c3d92107.js",
+    "static/js/787.01a88fd6.chunk.js": "/test-for-abz/static/js/787.01a88fd6.chunk.js",
+    "static/media/logo.svg": "/test-for-abz/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/test-for-abz/index.html",
+    "main.073c9b0a.css.map": "/test-for-abz/static/css/main.073c9b0a.css.map",
+    "main.c3d92107.js.map": "/test-for-abz/static/js/main.c3d92107.js.map",
+    "787.01a88fd6.chunk.js.map": "/test-for-abz/static/js/787.01a88fd6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.c3d92107.js"
+  ]
+}
