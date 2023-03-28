@@ -1,0 +1,12 @@
+$primary-bg: #F4E041;
+$secondary-bg:#00BDD3;
+$hover-bg: #FFE302;
+$text-color: #000000DE;
+
+                                   
+:export{
+    background: $primary-bg;
+    background: $secondary-bg;
+    background: $hover-bg;
+    color: $text-color;  
+}

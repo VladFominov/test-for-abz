@@ -1,0 +1,71 @@
+@import "../../sass/_variables";
+
+.section{
+    
+    text-align: center;
+}
+
+.overlay{
+  
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+    @media screen and (min-width: 768px) {
+           
+            display: flex;
+                justify-content: center;
+        }
+
+                 @media screen and (min-width: 1024px) {
+                    width: 100%;
+                     max-width: 1024px;
+                    margin: 0 auto;
+                 }
+}
+
+.heroWrapper{
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        width: 380px;
+        margin: 0 auto;
+        }
+    
+}
+
+.title{
+    color: #FFFFFF;
+font-size: 40px;
+    line-height: 1;
+    text-align: center;
+    padding-top: 40px;
+
+    @media screen and (min-width: 768px) {
+        padding-top: 89px;
+        }
+    
+};
+
+.text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.6;  
+        text-align: center;  
+        color: #FFFFFF;
+    margin-top: 21px;
+}
+
+.btn { 
+    padding: 4px 22px;
+    margin-top: 32px;
+     margin-bottom: 71px;
+    border-radius: 80px;
+
+    @media screen and (min-width: 768px) {
+            margin-bottom: 88px;
+        }
+};
+
