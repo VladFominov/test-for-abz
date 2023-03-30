@@ -9,6 +9,7 @@ function UploadInput({ onChange }) {
       </label>
       <p className={styles.uploadText}>Upload your photo</p>
       <input onChange={onChange} id="file-upload" type="file" />
+      
       <div class="invalid-feedback">Please, upload your photo</div>
     </div>
   );

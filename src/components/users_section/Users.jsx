@@ -6,6 +6,7 @@ import { getUsers } from "../../services/api";
 import globalStyles from "../_styles.module.scss";
 import styles from "./_users.module.scss";
 import Button from "../button/Button";
+import "../../scss/custom.scss";
 
 const Users = () => {
   const [user, setUser] = useState([]);
@@ -58,7 +59,11 @@ const Users = () => {
               <li className={styles.cardName}>{name}</li>
               <li className={styles.cardPos}>{position}</li>
               <li className={styles.cardEmail}>
-                {email}
+                <span
+                  className="d-inline-block text-truncate" 
+                >
+                  {email}
+                </span>
               </li>
               <li className={styles.cardPhone}>{phone}</li>
             </div>

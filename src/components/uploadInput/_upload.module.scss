@@ -1,8 +1,21 @@
 .uploadContainer {
-    display: flex;
-    // flex-direction: column;
+    display: flex;  
     align-items: center;
-    margin-top: 47px;
+    margin-top: 68px;
+
+    @media screen and (min-width: 768px) {
+            width: 380px;
+            margin: 0 auto;
+            margin-top: 55px;
+        }
+    
+        ;
+
+    @media screen and (min-width: 1024px) {
+            width:380px;
+            margin: 0 auto;
+            margin-top: 55px;
+        };
 
     input[type="file"] {
             display: none;
@@ -42,7 +55,7 @@
             line-height: 1.6;
             margin: 0;
             padding-left: 5px;
-}
+};
 
 
 
@@ -55,7 +68,7 @@ label[for="file-upload"] {
     font-size: 1.2rem;
     color: #333;
     transition: all 0.3s ease;
-}
+};
 
 .uploadBtnText{
     color:#000000DE;
@@ -66,4 +79,4 @@ label[for="file-upload"] {
         line-height: 26px;
         text-align: center;
         color: rgba(0, 0, 0, 0.87);
-}
+};

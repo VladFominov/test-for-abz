@@ -1,30 +1,31 @@
 @import "../../sass/_variables";
 
-.section{
-    
+.section{   
     text-align: center;
-}
+
+    @media screen and (min-width: 1024px) {        
+            height: 650px;         
+        }
+};
 
 .overlay{
-  
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/hero-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
-
-    @media screen and (min-width: 768px) {
-           
+    @media screen and (min-width: 768px) {          
             display: flex;
                 justify-content: center;
-        }
+        };
 
                  @media screen and (min-width: 1024px) {
                     width: 100%;
+                    height: 100%;
                      max-width: 1024px;
                     margin: 0 auto;
-                 }
-}
+                 };
+};
 
 .heroWrapper{
     text-align: center;
@@ -32,9 +33,8 @@
     @media screen and (min-width: 768px) {
         width: 380px;
         margin: 0 auto;
-        }
-    
-}
+        }    
+};
 
 .title{
     color: #FFFFFF;
@@ -45,7 +45,11 @@ font-size: 40px;
 
     @media screen and (min-width: 768px) {
         padding-top: 89px;
-        }
+        };
+
+                @media screen and (min-width: 1024px) {
+                padding-top: 164px;
+                };
     
 };
 
@@ -60,12 +64,16 @@ font-size: 40px;
 
 .btn { 
     padding: 4px 22px;
-    margin-top: 32px;
+    margin-top: 19px;
      margin-bottom: 71px;
     border-radius: 80px;
 
     @media screen and (min-width: 768px) {
             margin-bottom: 88px;
-        }
+        };
+
+                   @media screen and (min-width: 1024px) {
+                    margin-top: 21px;
+                   };
 };
 
